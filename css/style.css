@@ -1,0 +1,17 @@
+@charset "utf-8";
+.col-12{
+width: 100%;
+
+}
+.col-4{
+width: 25%;
+overflow: hidden;
+  float: left;
+}
+
+.col-4 img{
+	width: 100%;
+	height: auto;
+}
+
+
