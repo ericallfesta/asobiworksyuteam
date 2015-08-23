@@ -97,6 +97,49 @@ button#formbtn {
     border: 0;
 }
 
+.contentImg{
+  width: 960px;
+  height: 480px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.contentImg img{
+  width: 100%;
+  height: auto;
+}
+.contentsTitle{
+  width: 100%;
+  text-align: center;
+}
+.mainContent{
+  width: 90%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px 0px 10px 0px;
+}
+
+.mainContent span {
+    font-weight: bold;
+}
 
 
+p{
+  font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+}
 
+.detailContent{
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+
+.detailContent p{
+  width: 90%;
+}
+.pickup{
+width: 90%;
+  margin: 0 auto;
+}
