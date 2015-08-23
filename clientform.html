@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>asobiworks</li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </nav>
+  <div class="container">
+  <div class="page-header">
+    <h2><span>情報登録</span></h2>
+    <p>下記のフォームに必要事項をご入力の上、【登録】ボタンをクリックしてください。</p>
+  </div>
+  <div class="wrapper">
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="title">タイトル</label>
+      <div class="col-sm-10">
+        <input type="text" name="title" id="title" value="" class="form-control input-sm" required="" placeholder="プロジェクトのタイトルをご記入ください">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="area">場所</label>
+      <div class="col-sm-10">
+        <input type="text" name="area" id="area" value="" class="form-control input-sm" required="" placeholder="プロジェクトを実施する都道府県（または市区町村）をご記入ください">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="category">カテゴリー</label>
+      <div class="col-sm-10">
+        <select name="category" class="form-control">
+          <option value selected>プロジェクトのカテゴリを選択してください</option>
+          <option value="1">観光</option>
+          <option value="2">まちおこし</option>
+          <option value="3">農業</option>
+          <option value="4">漁業</option>
+          <option value="5">林業</option>
+          <option value="6">ものづくり・デザイン</option>
+          <option value="7">映像・音楽</option>
+          <option value="8">IT・テクノロジー</option>
+        </select>
+      </div>
+    </div>
+        <div class="form-group">
+        <label class="control-label col-sm-2" for="name">氏名</label>
+        <div class="col-sm-10">
+        <input type="title" name="name" id="name" value="" class="form-control input-sm" required="" placeholder="プロジェクトの代表者さま、ご担当者さまのご氏名をご記入ください">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">メールアドレス</label>
+      <div class="col-sm-10">
+
+        <input type="text" name="email" id="email" value="" class="form-control input-sm" placeholder="プロジェクトの代表者さま、ご担当者さまのメールアドレスをご記入ください" required="">
+        <span class="help-block">▼ 確認のため再入力</span>
+        <input type="text" name="email02" id="email02" value="" class="form-control input-sm" placeholder="確認用メールアドレス" required="">
+        <span class="help-block">※半角200文字以内で入力してください。<br>
+        <ul>
+          <li>携帯電話アドレス（<b class="red">特に@ezweb.ne.jp</b>）でのご登録は、手続きメールが届かない場合がございます。<br>
+          PCのメール又はフリーメールアドレスでのご登録をおすすめします。</li>
+          <li>自動的に迷惑メールフィルタで迷惑メールとして別フォルダに振り分けられている場合があります。</li>
+          <li>メールは「info@asobi.work」より送信されますので、受信拒否機能を設定されている場合は、<br>
+          ドメイン「asobi.work」のメールが受信できるように設定後、改めてお試しください。</li>
+          <li>登録していただいたメールアドレスが間違っていたと予想される場合は、登録手続きを最初からやり直してください。</li>
+        </ul>
+        </span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pass">最少催行人数</label>
+      <div class="col-sm-10">
+        <input type="string" name="name" id="name" value="" class="form-control input-sm" required="" placeholder="プロジェクトの最少催行人数をご記入ください">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="tel">TEL（任意）</label>
+      <div class="col-sm-10">
+        <input type="tel" name="tel" id="tel" value="" class="form-control input-sm" required="" placeholder="このプロジェクトの概要を教えてください">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="contents">プロジェクトの概要</label>
+      <div class="col-sm-10">
+        <input type="text" name="contents" id="contents" value="" class="form-control input-sm" placeholder="このプロジェクトの魅力を第三者にもわかるように教えてください" required="">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="contents">URL</label>
+      <div class="col-sm-10">
+        <input type="text" name="url" id="url" value="" class="form-control input-sm" placeholder="Webサイト、FacebookページなどのURLをご記入ください" required="">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-4 col-sm-4">
+        <button type="submit" name="SUBMIT" value="登録" id="formbtn" data-loading-text="Loading..." class="btn btn-regist btn-lg btn-block"><i class="fa fa-chevron-right"></i> 登録</button>
+      </div>
+    </div>
+  </form>
+  </div>
+  </div>
+</body>
+</html>
